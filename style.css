@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- Welcome text ---------- */
+
+.welcome {
+
+    position: absolute;
+
+    top: 15%;
+    left: 34%;
+
+    color: black;
+
+    font-size: 42px;
+
+    font-style: bold;
+
+    text-align: center;
+
+    text-shadow: 0 0 12px rgba(255,255,255,.4);
+
+}
+
+/* ---------- Menu ---------- */
+
+.menu{
+
+    position:absolute;
+
+    right:18%;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+/* ---------- Buttons ---------- */
+
+button{
+
+    width:320px;
+
+    padding:18px;
+
+    border-radius:50px;
+
+    border:2px solid rgba(255,255,255,.7);
+
+    background:rgba(0,0,0,.18);
+
+    backdrop-filter:blur(6px);
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:all .25s ease;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+    background:rgba(255,220,120,.18);
+
+    border-color:rgba(255,230,160,1);
+
+    box-shadow:0 0 20px rgba(255,220,120,.4);
+
+}
+
+/* ---------- About Page ---------- */
+
+.aboutTitle {
+
+    position:absolute;
+
+    top:15%;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    color:black;
+
+    font-size:42px;
+
+    text-align:center;
+
+    text-shadow:0 0 12px rgba(255,255,255,.4);
+
+}
+
+
+.aboutText {
+
+    position:absolute;
+
+    top:35%;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:60%;
+
+    color:white;
+
+    font-size:22px;
+
+    text-align:center;
+
+}
+
+.aboutPage {
+    background-image: url("background_empty.jpg");
+}
+
+/* ---------- Submit Page ---------- */
+
+.submit-container {
+
+    position: absolute;
+
+    top: 12%;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 600px;
+
+    padding: 40px;
+
+    background: rgba(0,0,0,0.35);
+
+    backdrop-filter: blur(8px);
+
+    border-radius: 30px;
+
+    border: 2px solid rgba(255,255,255,.4);
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+.submit-container h1 {
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.submit-container p {
+
+    font-size: 20px;
+
+    line-height: 1.5;
+
+}
+
+.submit-page {
+
+    background-image: url("background_empty.jpg");
+
+}
+
+/* ---------- Submit Form Layout ---------- */
+
+.submit-container form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+
+.submit-container label {
+
+    margin-top: 15px;
+
+    text-align: left;
+
+    font-size: 18px;
+
+}
+
+
+.submit-container input,
+.submit-container select,
+.submit-container textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    font-size: 16px;
+
+}
+
+
+.submit-container textarea {
+
+    min-height: 120px;
+
+}

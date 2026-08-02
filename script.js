@@ -1,3 +1,9 @@
 const form = document.getElementById("submissionForm");
 
-console.log("Form:", form);
+form.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    console.log("Submission intercepted!");
+
+});

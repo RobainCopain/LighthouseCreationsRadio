@@ -59,18 +59,27 @@ form.addEventListener("submit", async function(event) {
     })
 
 
-    .then(response => response.text())
+    .then(response => response.json())
 
 
-    .then(result => {
+.then(result => {
 
-        console.log(result);
+    console.log(result);
+
+
+    if (result.result === "success") {
 
         alert("Your creation has entered the Lighthouse!");
 
         form.reset();
 
-    })
+    } else {
+
+        alert("Something went wrong.");
+
+    }
+
+})
 
 
     .catch(error => {

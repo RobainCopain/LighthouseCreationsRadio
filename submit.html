@@ -26,9 +26,9 @@
 
 
         <form id="submissionForm"
-    method="post"
-    action="https://script.google.com/macros/s/AKfycbyDX8gpkOc-HFuw8aGm1Q7BKfxWS7qPrEySS_mGowU287zgyfZLZY-qt_au_aFwK01bZg/exec">
-
+    	    method="post"
+    	    action="https://script.google.com/macros/s/AKfycbyDX8gpkOc-HFuw8aGm1Q7BKfxWS7qPrEySS_mGowU287zgyfZLZY-qt_au_aFwK01bZg/exec"
+	    enctype="multipart/form-data">
             <h2>
                 Artist Information
             </h2>
@@ -241,8 +241,9 @@
 
             <input
             type="file"
-            name="File_Name"
-            accept="audio/*">
+            name="Audio_File"
+            accept="audio/*"
+	    required>
 
 
 
@@ -310,8 +311,6 @@
 
 
     </div>
-
-<script src="script.js"></script>
 
 </body>
 

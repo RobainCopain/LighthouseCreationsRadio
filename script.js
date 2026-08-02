@@ -1,1 +1,1 @@
-console.log("Lighthouse script loaded!");
+alert("Lighthouse JavaScript is working!");

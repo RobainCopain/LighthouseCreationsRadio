@@ -1,1 +1,3 @@
-alert("Lighthouse JavaScript is working!");
+const form = document.getElementById("submissionForm");
+
+console.log("Form:", form);

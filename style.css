@@ -15,35 +15,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ---------- Welcome text ---------- */
-
-.welcome {
-
-    position: absolute;
-
-    top: 15%;
-    left: 34%;
-
-    color: black;
-
-    font-size: 42px;
-
-    font-style: bold;
-
-    text-align: center;
-
-    text-shadow: 0 0 12px rgba(255,255,255,.4);
-
-}
-
 /* ---------- Menu ---------- */
 
 .menu{
 
     position:absolute;
 
-    right:18%;
-    top:50%;
+    right:33%;
+    top:60%;
 
     transform:translateY(-50%);
 
